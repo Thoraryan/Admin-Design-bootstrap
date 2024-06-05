@@ -1,0 +1,133 @@
+.input-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  height: 30px;
+}
+
+.input-section input[type="text"] {
+  font-size: 16px;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 2px solid #3f51b5 !important;
+}
+
+.input-section input[type="text"]::placeholder {
+  color: #3f51b5;
+}
+
+.input-section input[type="text"]:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+.input-section button {
+  margin-left: 10px;
+  padding: 0.5rem;
+  background-color: #3f51b5;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #3f51b5;
+  transition: background-color 0.3s ease;
+  -webkit-box-shadow: 9px 21px 30px -19px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 9px 21px 30px -19px rgba(0, 0, 0, 0.63);
+  box-shadow: 9px 21px 30px -19px rgba(0, 0, 0, 0.63);
+}
+
+.input-section button:hover {
+  outline: none;
+  background-color: #7284eb;
+}
+
+.input-section button[type="text"]::placeholder {
+  color: #3f51b5;
+}
+
+.add {
+  margin-right: 10px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 3rem 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.todo-list::-webkit-scrollbar {
+  width: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  padding: 7px 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px #3f51b5;
+}
+
+.todo-list li span {
+  margin-left: 10px;
+  color: #3f51b5;
+  /* font-size: 13px */
+}
+
+.delete-button {
+  padding: 3px;
+  border-radius: 80px;
+}
+
+.delete-button :hover {
+  outline: none;
+  background-color: #3f51b5;
+}
+
+.todo-text {
+  color: #3f51b5 !important;
+  margin-right: auto;
+  font-size: 1.2rem !important;
+  font-weight: 500;
+}
+
+.span-button {
+  margin-left: auto;
+  display: block;
+  padding: 5px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px !important;
+}
+
+.face {
+  width: 100px;
+  z-index: 100;
+  height: 100px;
+  /* margin: auto; */
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 30%;
+}
+
+.not-found {
+  color: #fff;
+  top: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 30%;
+}
+.todo-app {
+  width: 100%;
+  height: 46rem;
+  border-radius: 15px;
+  background: #ffffff;
+  padding: 2rem 2rem;
+}

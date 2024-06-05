@@ -1,0 +1,40 @@
+.ref-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10pxc;
+}
+.ref-img {
+  position: relative;
+}
+.ref-img::before {
+  position: absolute;
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  top: -8px;
+  border: 0.4rem solid #ffffff;
+  background-color: #17c653;
+  left: -14px;
+}
+
+.bg-custom {
+  background-color: #e9f3ff;
+}
+.custom-progress-bar {
+  width: 80%;
+  height: 5px;
+}
+.w-90 {
+  width: 85%;
+}
+.border-dashed {
+  border: 1px solid;
+  border-style: dashed !important;
+}
+.list-group-item {
+  cursor: pointer;
+}
+.ref-nav-link {
+  color: gray !important;
+}
